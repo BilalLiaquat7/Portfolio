@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 ul {
-  padding: 0px;
+  padding: 0;
 }
 
 h1 {
@@ -51,12 +51,12 @@ h2 {
     padding: 12px;
     background-color: "white";
 
-    .hamBurger {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 8px;
-    }        
+  .hamBurger {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+  }        
 }
 
   #headline {
@@ -72,13 +72,13 @@ h2 {
     background-color: "white";
 
     .connect {
-        color: "#7F8CFF";
-        font-weight: 500;
+      color: "#7F8CFF";
+      font-weight: 500;
     }
 
     .socialIcons {
-        display: flex;
-        gap: 1rem;
+      display: flex;
+      gap: 1rem;
     }
   }
 }
