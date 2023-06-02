@@ -17,9 +17,8 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  color: "#172b4d";    
+  color: "#172b4d";
   line-height: 52px;
-
 }
 
 p {
@@ -56,7 +55,7 @@ h2 {
       flex-direction: row;
       align-items: flex-start;
       padding: 8px;
-    }        
+    }
   }
 
   #headline {
