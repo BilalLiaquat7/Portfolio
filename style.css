@@ -13,7 +13,7 @@ ul {
 }
 
 h1 {
-  margin: 0px;
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -22,7 +22,6 @@ h1 {
 }
 
 p {
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -51,13 +50,13 @@ h2 {
     padding: 12px;
     background-color: "white";
 
-  .hamBurger {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
-  }        
-}
+    .hamBurger {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 8px;
+    }        
+  }
 
   #headline {
     background-image: url(./assets/header-shapes-mobile.svg);
