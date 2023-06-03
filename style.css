@@ -61,23 +61,23 @@ button {
 
 button:hover {
   background: #6070ff;
-  color: #ffffff;
+  color: #fff;
 }
 
 button:disabled {
   border: 1px solid #c1c7d0;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #5e6c84;
 }
 
 button:active {
   background: #2230d2;
-  color: #ffffff;
+  color: #fff;
 }
 
 button:enabled {
   border: 1px solid #7f8cff;
-  background: #ffffff;
+  background: #fff;
   color: #6070ff;
 }
 
@@ -85,7 +85,7 @@ h5 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 @media only screen and (min-width: 375px) {
@@ -139,36 +139,36 @@ h5 {
       display: grid;
       padding: 16px;
       gap: 12px;
-      background: #ffffff;
+      background: #fff;
       border: 1px solid #dfe1e6;
       border-radius: 16px;
 
       .projectDescription {
         display: grid;
-        padding: 0px;
+        padding: 0;
         gap: 12px;
 
         .projectTools {
-            display: grid;
-            grid-auto-flow: column;
-            justify-content: start;
-            padding: 0;
-            gap: 12px;
-          }
+          display: grid;
+          grid-auto-flow: column;
+          justify-content: start;
+          padding: 0;
+          gap: 12px;
+        }
       
-          .projectTools {
-            display: grid;
-            grid-auto-flow: column;
-            padding: 0px;
-            gap: 8px;
-          }
+        .projectTools {
+          display: grid;
+          grid-auto-flow: column;
+          padding: 0px;
+          gap: 8px;
+        }
       
-          .tag {
-            padding: 4px 12px;
-            background: #ebebff;
-            border-radius: 8px;
-            color: #6070ff;
-          }
+        .tag {
+          padding: 4px 12px;
+          background: #ebebff;
+          border-radius: 8px;
+          color: #6070ff;
+        }
       }
     }
   }
@@ -186,9 +186,9 @@ h5 {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding: 0px;
+      padding: 0;
       gap: 12px;
-    
+
       .socialIconsGrid {
         display: grid;
         grid-auto-flow: column;
@@ -204,93 +204,46 @@ h5 {
       }
     }
 
-
     .myskills {
+      width: 100%;
+      display: grid;
+  
+      .languages {
         width: 100%;
         display: grid;
-  
-        .languages {
+
+        .lan_head {
           width: 100%;
           display: grid;
+          grid-auto-flow: column;
+          justify-content: space-between;
+          padding: 1rem 0.1px;
+        }
   
-          .lan_head {
-            width: 100%;
+        .lan_list {
+          display: grid;
+          gap: 12px;
+          width: 100%;
+
+          .lan_list_detail {
             display: grid;
             grid-auto-flow: column;
-            justify-content: space-between;
-            padding: 1rem 0.1px;
-          }
-  
-          .lan_list {
-            display: grid;
-            gap: 12px;
+            justify-content: start;
+            align-items: center;
             width: 100%;
+            padding: 8px 0.1px;
+            background: #f7f7f9;
+            border-radius: 8px;
+            gap: 1rem;
   
-            .lan_list_detail {
-              display: grid;
-              grid-auto-flow: column;
-              justify-content: start;
-              align-items: center;
-              width: 100%;
-              padding: 8px 0.1px;
-              background: #f7f7f9;
-              border-radius: 8px;
-              gap: 1rem;
-  
-              .list_img {
-                padding-left: 10px;
-                width: 48px;
-                height: 48px;
-              }
+            .list_img {
+              padding-left: 10px;
+              width: 48px;
+              height: 48px;
             }
           }
         }
       }
-
-    /* .myskills {
-        display: grid;
-        padding: 0px;
-
-      .languages {
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: space-between;
-        padding: 0px;
-      }
-
-      .languagelist {
-        display: grid;
-        justify-content: start;
-        padding: 12px;
-        gap: 12px;
-
-        .singlelanguage {
-          display: grid;
-          grid-auto-flow: column;
-          justify-content: start;
-          align-items: center;
-          gap: 16px;
-          background: #f7f7f9;
-          border-radius: 8px;
-          width: 100%;
-        }
-      }
-
-      .framework {
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: space-between;
-        border-bottom: 1px solid gray;
-        padding: 0px;
-      }
-
-      .skills {
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: space-between;
-        border-bottom: 1px solid gray;
-        padding: 0px;
-      }
-    } */
+    }
   }
 }
