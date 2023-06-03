@@ -155,14 +155,7 @@ h5 {
           padding: 0;
           gap: 12px;
         }
-      
-        .projectTools {
-          display: grid;
-          grid-auto-flow: column;
-          padding: 0px;
-          gap: 8px;
-        }
-      
+
         .tag {
           padding: 4px 12px;
           background: #ebebff;
