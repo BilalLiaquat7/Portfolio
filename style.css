@@ -200,7 +200,7 @@ h5 {
     .myskills {
       width: 100%;
       display: grid;
-  
+
       .languages {
         width: 100%;
         display: grid;
@@ -212,7 +212,7 @@ h5 {
           justify-content: space-between;
           padding: 1rem 0.1px;
         }
-  
+
         .lan_list {
           display: grid;
           gap: 12px;
@@ -227,8 +227,8 @@ h5 {
             padding: 8px 0.1px;
             background: #f7f7f9;
             border-radius: 8px;
-            gap: 1rem;
-  
+            gap: 16px;
+
             .list_img {
               padding-left: 10px;
               width: 48px;
