@@ -136,6 +136,7 @@ h5 {
 
     .socialIcons {
       display: flex;
+      align-items: baseline;
       gap: 1rem;
     }
   }
@@ -211,6 +212,7 @@ h5 {
         display: grid;
         grid-auto-flow: column;
         justify-content: start;
+        align-items: baseline;
         gap: 1rem;
       }
 
