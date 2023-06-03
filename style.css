@@ -88,6 +88,15 @@ h5 {
   color: #000;
 }
 
+.heading {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  line-height: 52px;
+}
+
 @media only screen and (min-width: 375px) {
   #header {
     display: flex;
@@ -136,7 +145,8 @@ h5 {
     gap: 88px;
 
     .project {
-      display: grid;
+      display: flex;
+      flex-direction: column;
       padding: 16px;
       gap: 12px;
       background: #fff;
@@ -154,6 +164,12 @@ h5 {
           justify-content: start;
           padding: 0;
           gap: 12px;
+
+          .canopy {
+            font-weight: 600;
+            font-size: 13px;
+            color: #344563;
+          }
         }
 
         .tag {
