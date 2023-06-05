@@ -175,17 +175,14 @@ h5 {
         }
 
         .projectTechnology {
-          display: grid;
-          grid-auto-flow: column;
-          justify-content: start;
-          padding: 0;
-          gap: 12px;
-
+          
           .tag {
+            float: left;
             padding: 4px 12px;
             background: #ebebff;
             border-radius: 8px;
             color: #6070ff;
+            margin-right: 12px;
           }
         }
       }
