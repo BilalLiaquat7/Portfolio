@@ -275,7 +275,7 @@ h5 {
   align-items: center;
   position: relative;
   width: 100%;
-  top: 72rem;
+  top: 117px;
   height: 44rem;
   background-image: url(image/contact\ form\ shapes-mobile.png);
   background-color: #396df2;
@@ -285,7 +285,7 @@ h5 {
   border-top-left-radius: 10%;
   margin: 0 auto;
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid hsl(0, 0%, 80%);
 }
 
 .form ul {
@@ -354,9 +354,9 @@ h5 {
   right: 38px;
   color: #172b4d;
   height: 48px;
-  width: 90%;
+  width: 70%;
   left: 15px;
-  top: 362px;
+  top: 372px;
 }
 
 #email {
@@ -370,9 +370,9 @@ h5 {
   line-height: 20px;
   padding: 10px;
   height: 48px;
-  width: 90%;
+  width: 70%;
   left: 15px;
-  top: 422px;
+  top: 452px;
   color: #172b4d;
 }
 
@@ -384,9 +384,9 @@ h5 {
   line-height: 24px;
   padding: 10px;
   height: 140px;
-  width: 90%;
+  width: 70%;
   left: 15px;
-  top: 486px;
+  top: 536px;
   color: #b3bac5;
 }
 
@@ -402,24 +402,12 @@ h5 {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   background-color: #fff;
-  top: 640px;
+  top: 710px;
   margin-left: 5px;
   cursor: pointer;
   color: #6070ff;
 }
 
-#btn-1 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #6070ff;
-}
 
 .btn:hover {
   background-color: #6070ff;
