@@ -98,10 +98,6 @@ h5 {
   line-height: 52px;
 }
 
-
-
-
-
 @media only screen and (min-width: 375px) {
   #header {
     display: flex;
