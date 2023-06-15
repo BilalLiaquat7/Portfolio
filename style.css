@@ -433,12 +433,11 @@ h5 {
         gap: 1rem;
       }
     }
-
   }
 
   #works {
     justify-items: center;
-    
+
     .project2 img {
       order: 2;
     }
@@ -511,7 +510,7 @@ h5 {
         }
       }
     }
-  }  
+  }
 
   #contact {
     align-items: center;
