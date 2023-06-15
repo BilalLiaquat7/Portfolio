@@ -470,7 +470,7 @@ h5 {
     }
 
     .project img:hover {
-      transform: scale(0.9);
+      transform: scale(0.5);
     }
   }
 
