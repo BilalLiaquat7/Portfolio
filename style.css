@@ -402,7 +402,7 @@ h5 {
     justify-content: center;
     background-image: none;
     background-image: url(./assets/Headerbg.svg);
-    background-position: bottom;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -462,6 +462,11 @@ h5 {
       grid-gap: 36px;
       width: 80%;
 
+      .image {
+        height: 100%;
+        object-fit: fill;
+      }
+
       .projectDescription {
         display: grid;
         height: fit-content;
@@ -501,7 +506,7 @@ h5 {
             padding-left: 1rem;
             padding-bottom: 1rem;
             padding-top: 1rem;
-            padding-right: 3rem;
+            padding-right: 2rem;
             background: #f7f7f9;
             border-radius: 8px;
             width: fit-content;
