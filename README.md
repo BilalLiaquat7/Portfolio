@@ -20,6 +20,7 @@
   - [Usage](#usage)
   - [Run tests](#Run-tests)
 - [👥 Authors](#authors)
+- [📺 Live Demo](#live-demo)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -128,6 +129,12 @@ npx stylelint "**/*.{css,scss}"
 👤 **Muhamad Bilal Liaquat**
 
 - GitHub: [@githubhandle](https://github.com/BilalLiaquat7)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📺 Live Demo <a name="live-demo"></a>
+
+- Live Demo: [@livedemo](https://bilalliaquat7.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
