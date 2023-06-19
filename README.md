@@ -132,6 +132,12 @@ npx stylelint "**/*.{css,scss}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 📺 Live Demo <a name="live-demo"></a>
+
+- Live Demo: [@livedemo](https://bilalliaquat7.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 > We will add 3 new features to this project
