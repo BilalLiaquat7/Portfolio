@@ -130,9 +130,9 @@ h5 {
       left: 0;
 
       #cross {
-        align-self: flex-start;
+        align-self: flex-end;
         margin-top: 1rem;
-        margin-left: 1rem;
+        margin-right: 1rem;
       }
 
       .lil {
