@@ -516,7 +516,7 @@ h5 {
 
       .projectDescription {
         display: grid;
-        height: fit-content;
+        height: 100vh;
         gap: 2rem;
       }
     }
