@@ -139,7 +139,6 @@ h5 {
         padding: 0.5rem;
         display: flex;
         margin-left: 1rem;
-      
 
         .menu_item {
           color: white;
@@ -414,7 +413,6 @@ h5 {
       backdrop-filter: unset;
       text-align: unset;
       flex-direction: unset;
-
 
       #cross {
         display: none;
