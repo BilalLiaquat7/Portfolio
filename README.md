@@ -130,6 +130,12 @@ npx stylelint "**/*.{css,scss}"
 
 - GitHub: [@githubhandle](https://github.com/BilalLiaquat7)
 
+👤 **Victor Correia**
+
+- GitHub: [@githubhandle](https://github.com/dvcorreia1984)
+- Twitter: [@twitterhandle](https://twitter.com/dvcorreia1984)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvcorreia)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
