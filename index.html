@@ -17,14 +17,21 @@
             <a href="#"><h2>Bilal</h2></a>
         </div>
         <nav class="Menuicon">
-            <span class="material-symbols-outlined">
+            <span id="navicon" class="material-symbols-outlined">
                 menu
                 </span>
         </nav>
-        <ul class="menu">
-            <li><a class="menu_item" href="#portfolio">portfolio</a></li>
-            <li><a class="menu_item" href="#about">About</a></li>
-            <li><a class="menu_item" href="#contact">Contact</a></li>
+        <ul id="menu" class="menu">
+            <a href="#" id="cross" class="Menuiconcross">
+                <span
+                    id="crossIcon"
+                    style="color: white"
+                    class="material-symbols-outlined">
+                        close
+				</span></a>
+            <li id="work_m" class="lil"><a class="menu_item" href="#works">portfolio</a></li>
+            <li id="about_m" class="lil"><a class="menu_item" href="#aboutme">About</a></li>
+            <li id="contact_m" class="lil"><a class="menu_item" href="#contact">Contact</a></li>
         </ul>
     </header>
     <section id="headline">
@@ -249,5 +256,6 @@
             <button type="submit" class="submitt" >Get in touch</button>
         </form>
     </section>
+    <script src="menu.js"></script>
 </body>
 </html>

@@ -130,6 +130,12 @@ npx stylelint "**/*.{css,scss}"
 
 - GitHub: [@githubhandle](https://github.com/BilalLiaquat7)
 
+👤 **Victor Correia**
+
+- GitHub: [@githubhandle](https://github.com/dvcorreia1984)
+- Twitter: [@twitterhandle](https://twitter.com/dvcorreia1984)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvcorreia)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📺 Live Demo <a name="live-demo"></a>
@@ -171,6 +177,6 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT] licensed.
+This project is [MIT](./LICENSE.MD) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
