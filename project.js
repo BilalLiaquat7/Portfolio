@@ -192,5 +192,5 @@ function button(id) {
       modal.style.display = "none";
       modal.removeChild(project);
     };
-  }, 100);
+  }, 50);
 }
