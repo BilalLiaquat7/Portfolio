@@ -78,9 +78,9 @@ const section = document.getElementById("works");
 const projectMethod = () => {
   projects.map((card) => {
     const project = document.createElement("div");
-    // project.classList.add("project");
+    project.classList.add("project");
     project.classList.add(card.card);
-    project.innerHTML = `<div class="project">
+    project.innerHTML = `
     <div>
         <img class="image" src="${card.image}" alt="Project">
     </div>
@@ -107,8 +107,7 @@ const projectMethod = () => {
         <div class="projectDemo">
             <button onclick="button(${card.id})" class="button button1" id="btn" type="button">See project</button>
         </div>
-    </div>
-</div>`;
+    </div>`;
 
     return section.appendChild(project);
   });
@@ -124,8 +123,7 @@ function button(id) {
   const project = document.createElement("div");
   project.classList.add("modelsection");
   project.classList.add(card.card);
-  project.innerHTML = 
-    `<div class="header">
+  project.innerHTML = `<div class="header">
         <div>
             <h2>${card.Projectname}</h2>
             <div class="card_historyy">
@@ -181,8 +179,8 @@ function button(id) {
         </div>
         <hr class="hr">
         <div class="card_action">
-            <button class="modelbtn" type="button"> See lice <img style="height: 24px; width: 24px; margin-left: 6px;" src="./assets/see_live.svg" alt=""></button>
-            <button class="modelbtn" type="button"> See source <img style="height: 24px; width: 24px; margin-left: 6px;" src="./assets/see source.svg" alt=""> </button>
+            <button class="modelbtn button button1" type="button"> See lice <img style="height: 24px; width: 24px; margin-left: 6px;" src="./assets/see_live.svg" alt=""></button>
+            <button class="modelbtn button button1" type="button"> See source <img style="height: 24px; width: 24px; margin-left: 6px;" src="./assets/see source.svg" alt=""> </button>
         </div>
     </div>
 </div>`;
@@ -194,5 +192,5 @@ function button(id) {
       modal.style.display = "none";
       modal.removeChild(project);
     };
-  }, 50);
+  }, 100);
 }
