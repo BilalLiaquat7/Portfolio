@@ -1,95 +1,95 @@
 // ///////////////// email validation /////////////////
-const email = document.getElementById('email');
-email.addEventListener('input', (event) => {
+const email = document.getElementById("email");
+email.addEventListener("input", (event) => {
   const text = event.target.value;
   if (text === text.toLowerCase()) {
-    email.setCustomValidity('');
+    email.setCustomValidity("");
   } else {
-    email.setCustomValidity('Please write email in LowerCase');
+    email.setCustomValidity(" write email in LowerCase");
   }
 });
 
 const projects = [
   {
     id: 1,
-    card: 'project1',
-    image: './assets/SnapshootPortfolio.svg',
-    Projectname: 'Tonic',
+    card: "project1",
+    image: "./assets/SnapshootPortfolio.svg",
+    Projectname: "Tonic",
     history: {
-      proName: 'CANOPY',
-      tech: 'Backend Dev',
+      proName: "CANOPY",
+      tech: "Backend Dev",
       date: 2015,
     },
-    disc: 'A daily selection of privately personalized reads;no accounts or sign-ups required.',
+    disc: "A daily selection of privately personalized reads;no accounts or sign-ups required.",
     tags: {
-      html: 'HTML',
-      css: 'CSS',
-      javascript: 'JavaScript',
+      html: "HTML",
+      css: "CSS",
+      javascript: "JavaScript",
     },
-    button: 'myBtn',
+    button: "myBtn",
   },
   {
     id: 2,
-    card: 'project2',
-    image: './assets/SnapshootPortfolio1.svg',
-    Projectname: 'Multi-Post',
+    card: "project2",
+    image: "./assets/SnapshootPortfolio1.svg",
+    Projectname: "Multi-Post",
     history: {
-      proName: 'CANOPY',
-      tech: 'Backend Dev',
+      proName: "CANOPY",
+      tech: "Backend Dev",
       date: 2015,
     },
-    disc: 'A daily selection of privately personalized reads;no accounts or sign-ups required.',
+    disc: "A daily selection of privately personalized reads;no accounts or sign-ups required.",
     tags: {
-      html: 'HTML',
-      css: 'CSS',
-      javascript: 'JavaScript',
+      html: "HTML",
+      css: "CSS",
+      javascript: "JavaScript",
     },
-    button: 'myBtn',
+    button: "myBtn",
   },
   {
     id: 3,
-    card: 'project3',
-    image: './assets/SnapshootPortfolio2.svg',
-    Projectname: 'Tonic',
+    card: "project3",
+    image: "./assets/SnapshootPortfolio2.svg",
+    Projectname: "Tonic",
     history: {
-      proName: 'CANOPY',
-      tech: 'Backend Dev',
+      proName: "CANOPY",
+      tech: "Backend Dev",
       date: 2015,
     },
-    disc: 'A daily selection of privately personalized reads;no accounts or sign-ups required.',
+    disc: "A daily selection of privately personalized reads;no accounts or sign-ups required.",
     tags: {
-      html: 'HTML',
-      css: 'CSS',
-      javascript: 'JavaScript',
+      html: "HTML",
+      css: "CSS",
+      javascript: "JavaScript",
     },
-    button: 'myBtn',
+    button: "myBtn",
   },
   {
     id: 4,
-    card: 'project4',
-    image: './assets/SnapshootPortfolio3.svg',
-    Projectname: 'MultiPost',
+    card: "project4",
+    image: "./assets/SnapshootPortfolio3.svg",
+    Projectname: "MultiPost",
     history: {
-      proName: 'CANOPY',
-      tech: 'Backend Dev',
+      proName: "CANOPY",
+      tech: "Backend Dev",
       date: 2015,
     },
-    disc: 'A daily selection of privately personalized reads;no accounts or sign-ups required.',
+    disc: "A daily selection of privately personalized reads;no accounts or sign-ups required.",
     tags: {
-      html: 'HTML',
-      css: 'CSS',
-      javascript: 'JavaScript',
+      html: "HTML",
+      css: "CSS",
+      javascript: "JavaScript",
     },
-    button: 'myBtn',
+    button: "myBtn",
   },
 ];
 
-const section = document.getElementById('works');
+const section = document.getElementById("works");
 
 const projectMethod = () => {
   projects.map((card) => {
-    const project = document.createElement('div');
-    project.classList.add('project');
+    const project = document.createElement("div");
+    project.classList.add("project");
     project.classList.add(card.card);
     project.innerHTML = `
     <div>
@@ -126,13 +126,13 @@ const projectMethod = () => {
 
 projectMethod();
 
-const modal = document.getElementById('model');
+const modal = document.getElementById("model");
 // eslint-disable-next-line no-unused-vars
 function button(id) {
-  modal.style.display = 'flex';
+  modal.style.display = "flex";
   const card = projects.find((card) => card.id === id);
-  const project = document.createElement('div');
-  project.classList.add('modelsection');
+  const project = document.createElement("div");
+  project.classList.add("modelsection");
   project.classList.add(card.card);
   project.innerHTML = `<div class="header">
         <div>
@@ -198,9 +198,9 @@ function button(id) {
 
   modal.appendChild(project);
   setTimeout(() => {
-    const span = document.getElementById('modelcrossIcon');
+    const span = document.getElementById("modelcrossIcon");
     span.onclick = function shah() {
-      modal.style.display = 'none';
+      modal.style.display = "none";
       modal.removeChild(project);
     };
   }, 50);
