@@ -1,4 +1,4 @@
-// ///////////////// email validation /////////////////
+// --------------------- Email Validation ----------------------
 const email = document.getElementById('email');
 email.addEventListener('input', (event) => {
   const text = event.target.value;
@@ -9,16 +9,16 @@ email.addEventListener('input', (event) => {
   }
 });
 
-// ////////////////// Local Storage //////////////////
+// ------------------------- Local Storage ----------------------
 const form = document.getElementById('form');
-let formDataObj;
+let fDataObj;
 form.addEventListener('submit', (event) => {
   const myFormData = new FormData(event.target);
-  formDataObj = {};
+  fDataObj = {};
   myFormData.forEach((value, key) => {
-    formDataObj[key] = value;
+    fDataObj[key] = value;
   });
-  const formData = JSON.stringify(formDataObj);
+  const formData = JSON.stringify(fDataObj);
   localStorage.setItem('Data', formData);
 });
 
@@ -29,6 +29,7 @@ window.onload = () => {
   document.getElementById('messag').value = userData.message;
 };
 
+// ------------------ Project's Object -----------------------
 const projects = [
   {
     id: 1,
