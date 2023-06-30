@@ -9,6 +9,26 @@ email.addEventListener('input', (event) => {
   }
 });
 
+// ////////////////// Local Storage //////////////////
+const form = document.getElementById('form');
+let formDataObj;
+form.addEventListener('submit', (event) => {
+  const myFormData = new FormData(event.target);
+  formDataObj = {};
+  myFormData.forEach((value, key) => {
+    formDataObj[key] = value;
+  });
+  const formData = JSON.stringify(formDataObj);
+  localStorage.setItem('Data', formData);
+});
+
+const userData = JSON.parse(localStorage.getItem('Data'));
+window.onload = () => {
+  email.value = userData.email;
+  document.getElementById('name').value = userData.text;
+  document.getElementById('messag').value = userData.message;
+};
+
 const projects = [
   {
     id: 1,
