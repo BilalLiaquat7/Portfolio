@@ -26,7 +26,7 @@ const userData = JSON.parse(localStorage.getItem('Data'));
 window.onload = () => {
   email.value = userData.email;
   document.getElementById('name').value = userData.text;
-  document.getElementById('messag').value = userData.message;
+  document.getElementById('message').value = userData.message;
 };
 
 // ------------------ Project's Object -----------------------
