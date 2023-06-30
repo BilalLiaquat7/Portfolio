@@ -5,7 +5,7 @@ email.addEventListener("input", (event) => {
   if (text === text.toLowerCase()) {
     email.setCustomValidity("");
   } else {
-    email.setCustomValidity(" write email in LowerCase");
+    email.setCustomValidity(" "word" write email in LowerCase");
   }
 });
 
